@@ -35,12 +35,48 @@ body {
     width: 100%;
     border-radius: 5px;
 }
+#job {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#footer {
+    background-color: gainsboro;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+a {
+    text-decoration: none;
+}
 h1 {
     text-align:center;
     color: black;
 }
 
-
+h3 {
+    margin-bottom: 2px;
+    margin-top: 0;
+}
 .location {
+    color: gray;
+    margin-bottom: 16px;
+}
+.apply {
+    float: right;
+}
+.copyright {
     color: gray;
 }
